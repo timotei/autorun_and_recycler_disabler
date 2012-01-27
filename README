@@ -1,0 +1,8 @@
+This is a simple Windows Script that will:
+
+a) Remove existing AUTORUN.INF and create a directory with that name
+b) Delete the RECYCLER directory and create a file with that name
+
+In this way, since the files are system/readonly most of the viruses won't be able to inject their malicious code/binaries on the (USB usually) drive.
+
+You can run this on any drive, by copying the script on it, and executing it.
